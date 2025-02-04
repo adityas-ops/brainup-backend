@@ -1,0 +1,19 @@
+
+# hide env 
+.env
+
+# hide .env.local
+.env.local
+
+env.development
+
+env
+
+# hide node_modules
+node_modules
+
+# hide build
+build
+
+# hide dist
+dist
