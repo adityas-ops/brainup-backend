@@ -6,7 +6,8 @@ import userTypeDef from "./typeDefs/userTypeDef.js";
 
 const apolloserver = new ApolloServer({
     typeDefs: userTypeDef,
-    resolvers: userResolver
+    resolvers: userResolver,
+    csrfPrevention: false,
 });
 
 export default apolloserver;
